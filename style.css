@@ -1,14 +1,76 @@
-{@import url("styles/header.css");
-    :root {
-        --cor-de-fundo: #EBECEE;
-        --branco: #FFFFFF;
-    }
-    
-    - -cor-de-fundo: #EBECEE;
-    body {
-        background-color: var(--cor-de-fundo);
-        <h1>background-color : red ;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    }
-    
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffdd00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #0057a7;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0057a7;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #0057a7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #ffdd00;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #333;
+}
 
