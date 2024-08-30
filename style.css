@@ -44,4 +44,5 @@ section {
     width: 80%;
     border: 2px solid #ff69b4; /* Borda rosa choque */
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0,
+    box-shadow: 0 0 15px rgba(0, 0)
+}
